@@ -1,0 +1,19 @@
+{
+  "name": "construction-news-sync",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Standalone job: syncs global construction industry RSS feeds into Supabase every 30 minutes via GitHub Actions.",
+  "type": "module",
+  "scripts": {
+    "sync": "tsx src/sync.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.4",
+    "rss-parser": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.3"
+  }
+}
