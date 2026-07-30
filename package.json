@@ -5,7 +5,7 @@
   "description": "Standalone job: syncs global construction industry RSS feeds into Supabase every 30 minutes via GitHub Actions.",
   "type": "module",
   "scripts": {
-    "sync": "tsx src/sync.ts"
+    "sync": "tsx sync.ts"
   },
   "dependencies": {
     "@supabase/supabase-js": "^2.45.4",
